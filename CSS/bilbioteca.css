@@ -1,0 +1,124 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A9A9A9;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #9400D3;
+}
+
+#search {
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: -15px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 15pt;    
+}
+
+#img_search {
+    margin-top: 35px;
+    margin-left: 130px;
+    width: 52px;
+    height: 52px;
+}
+
+.img_menus {
+    width: 64px;
+    height: 64px;
+}
+
+.bt_principais {
+    float: right;
+    margin-right: 30px;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.bt_principais a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#logo_principal {
+    width: 317px;
+    height: 105px;
+    float: left;
+    margin: 10px 0 0 25px; 
+}
+
+.bt_principais {
+    background-color: transparent;
+}
+
+.container_livros{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+.livros {
+    background-color: #FAEBD7;
+    width: 300px;
+    height: 350px;
+    border-radius: 40px;
+    margin: 40px 45px 0 45px;
+}
+
+.img_livros {
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+    position: static;
+    
+}
+
+#img_coracao1 {
+    position: absolute;
+    top: 50px;
+    left: 227px;
+    z-index: 2;
+}
+
+#img_coracao2 {
+    position: absolute;
+    top: 50px;
+    left: 720px;
+    z-index: 2;
+}
+
+#img_coracao3 {
+    position: absolute;
+    top: 50px;
+    left: 1208px;
+    z-index: 2;
+}
+
+.containerEstrelas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.estrelas {
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+}
+
+#a {
+    margin-left: 100px;
+}

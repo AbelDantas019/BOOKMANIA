@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}   
+
+body{
+  background-color: #DDA0DD;
+}
+
+.container {
+    display: flex;
+}
+
+.menubotoes {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    
+}
+
+.menuConteudo{
+    float: right;
+    background-color: #8A2BE2;
+    height: 100vh;
+    width: 100%;
+    font-size: 20pt;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.tablink {
+    width: 300px;
+    height: 60px;
+    font-size: 20pt;
+    cursor: pointer;
+    background-color: #DDA0DD;
+    border: none;
+    text-align: center;
+}
+
+.tablink:hover {
+    background-color: #c095c0;
+}
+
+#imgUser {
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nameUser {
+    font-size: 21pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.tabcontent {
+    color: #FFFFFF;
+    display: none;
+    height: 100%;
+}
+
+.sla {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dadosDoUsuario {
+    margin-left: 15px;
+}
+
+.txtUsuario {
+    font-weight: bold;
+}
+
+#botaoDados {
+    display: flex;
+    text-justify: center;
+    text-indent: 15px;
+    padding-top: 8px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: #a54fdf;
+    color: #FFFFFF;
+    font-size: 15pt;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#botaoDados:hover {
+    background-color: #ba60f7;
+    box-shadow: 0px 0px 10px 1px rgb(109, 65, 126);
+}
+

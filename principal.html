@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/principal.css">
+    <link rel="shortcut icon" href="IMG/imagens/book_icon-purple.png" type="image/x-icon">
+    <title>BOOKMANIA</title>
+    <script defer src="JS/principal.js"></script>
+</head>
+    <body>
+        <div id="conteudo">
+            <header class="menu">
+                <img src="IMG/imagens/Logo2-white.png" alt="logo_site" id="logo_principal">
+                <img src="IMG/imagens/Icones/icon-search.png" alt="img_search" id="img_search">
+                <input type="search" name="" id="search" placeholder="Pesquise por título, autor..."> 
+                <button class="bt_principais">
+                    <a href="perfil.html" target="_parent">
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js" class="img_menus"></script>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/bhfjfgqz.json"
+                            trigger="hover"
+                            colors="primary:#ffffff"
+                            style="width:64px;height:64px">
+                        </lord-icon>
+                        <h3>PERFIL</h3>
+                    </a>
+                </button> 
+                <button class="bt_principais">
+                    <a href="biblioteca.html" target="_parent">
+                        <script src="https://cdn.lordicon.com/bhenfmcm.js" class="img_menus"></script>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/kipaqhoz.json"
+                            trigger="morph"
+                            colors="primary:#ffffff"
+                            state="morph"
+                            style="width:66px;height:64px">
+                        </lord-icon>
+                        <h3>BIBLIOTECAS</h3>
+                    </a>
+                </button>            
+            </header>
+            <br>
+            <br>    
+            <hr>    
+            <nav>
+                <div class="sub_menu">
+                    <img src="IMG/imagens/Icones/icon-list-white.png" alt="Img_list">
+                    <a href="#"><h3>Navegue por categoria</h3></a>
+                    <img src="IMG/imagens/livro2-logo-white.png" alt="Img_list">
+                    <a href="#"><h3>Lançamentos</h3></a>
+                </div>
+            </nav>
+    <!-- ------------------------------------------------------------------------------- -->
+            <h1 class="categorias">Fantasia</h1>   
+            <div class="container">
+                <div class="horizantal-scrool">
+                    <button class="btn-scrool" id="btn-scrool-left" onmouseenter="scroolHorizontally(1)" onclick="scroolHorizontally(1)"><img src="IMG/imagens/Icones/arrow-left.png" alt="arrow-left"></button>
+                    <button class="btn-scrool" id="btn-scrool-right" onmouseenter="scroolHorizontally(-1)" onclick="scroolHorizontally(-1)"><img src="IMG/imagens/Icones/arrow-right.png" alt="arrow-right"></button>
+                    
+                    <div class="scrool-container">
+                        <div class="img-circle">
+                            <img src="IMG/livros/O segredo dos gatos.png" alt="Livro O segredo dos gatos" onclick="window.location.href='books_details.html?index=0'" title="O segredo dos gatos">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/El Capitan Fluo.png" alt="Livro El Capitan Flúo" onclick="window.location.href='books_details.html?index=1'" title="El Capitan Flúo">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/O Ladrao de Raios.png" alt="Livro O Ladrão de Raios" onclick="window.location.href='books_details.html?index=2'" title="O Ladrão de Raios">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/O Mar de Monstros.png" alt="Livro O Mar de Monstros" onclick="window.location.href='books_details.html?index=3'" title="O Mar de Monstros">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/A Maldicao do Tita.png" alt="Livro A Maldição do Titã" onclick="window.location.href='books_details.html?index=4'" title="A Maldição do Titã">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/A Batalha do Labirinto.png" alt="Livro A Batalha do Labirinto" onclick="window.location.href='books_details.html?index=5'" title="A Batalha do Labirinto">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/O Principe Cruel.png" alt="Livro O Principe Cruel" onclick="window.location.href='books_details.html?index=6'" title="O Principe Cruel">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/O Rei Perverso.png" alt="Livro O Rei Perverso" onclick="window.location.href='books_details.html?index=7'" title="O Rei Perverso">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/A Rainha do Nada.png" alt="Livro A Rainha do Nada" onclick="window.location.href='books_details.html?index=8'" title="A Rainha do Nada">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/Anjo Mecanico.jpg" alt="Livro Anjo Mecânico" onclick="window.location.href='books_details.html?index=9'" title="Anjo Mecânico">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/Principe Mecanico.png" alt="Livro Principe Mecânico" onclick="window.location.href='books_details.html?index=10'" title="Principe Mecânico">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/livros/Princesa Mecanica.png" alt="Livro de Exemplo" onclick="window.location.href='books_details.html?index=11'" title="">
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <h1 class="categorias">Romance</h1>   
+            <div class="container">
+                <div class="horizantal-scrool2">
+                    <button class="btn-scrool2" id="btn-scrool-left2" onmouseenter="scroolHorizontally2(1)" onclick="scroolHorizontally2(1)"><img src="IMG/imagens/Icones/arrow-left.png" alt="arrow-left"></button>
+                    <button class="btn-scrool2" id="btn-scrool-right2" onmouseenter="scroolHorizontally2(-1)" onclick="scroolHorizontally2(-1)"><img src="IMG/imagens/Icones/arrow-right.png" alt="arrow-right"></button>
+                    <div class="scrool-container2">
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                        <div class="img-circle">
+                            <img src="IMG/Exemplo_Livro125x180.png" alt="Livro de Exemplo">
+                            <!-- <h3>Rita Lee</h3> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <footer>
+            <!-- Footer vazio por enquanto -->
+        </footer>
+    </body>
+</html>

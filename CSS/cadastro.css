@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    background: #DDA0DD;
+}
+
+.divs {   
+    height: 500px;
+    width: 550px;
+    border-radius: 20px;
+    justify-content: space-around;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+#esquerda {
+    
+}
+
+#sobreNos {
+    width: 500px;
+    text-align: justify;
+    font-size: 20pt;    
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+#direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15pt;
+    margin-left: 150px;
+    
+}
+
+#direita p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#direita h1 {
+    text-align: center;
+    font-size: 32pt;
+}
+
+.formulario input {
+    height: 30px;
+    width: 280px;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    margin-top: 5px;
+}
+
+.formulario a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+button {
+    width: 250px;
+    height: 30px;
+    border: none;
+    background: #6A5ACD;
+    border-radius: 7px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+#logo { 
+    height: 105px;
+    width: 357px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}

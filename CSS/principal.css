@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(to bottom,#9400d3,#DDDCDC);
+    background-size: auto;
+    background-color: #DDDCDC;
+}
+
+nav {
+    margin-top: 8px;
+}
+
+#search {
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: -15px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 15pt;    
+}
+
+#img_search {
+    margin-top: 35px;
+    margin-left: 130px;
+    width: 52px;
+    height: 52px;
+}
+
+.img_menus {
+    width: 64px;
+    height: 64px;
+}
+
+.bt_principais {
+    float: right;
+    margin-right: 30px;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-color: transparent;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.bt_principais a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#logo_principal {
+    width: 317px;
+    height: 105px;
+    float: left;
+    margin: 10px 0 0 25px; 
+}
+
+.bt_principais {
+    background-color: transparent;
+}
+
+.sub_menu {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.sub_menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.sub_menu img {
+    width: 64px;
+    height: 64px;
+    margin-left: 40px;
+}
+
+.sub_menu h3 {
+    margin-left: 18px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #dddcdc33; /*#DDDCDC*/
+    margin-top: 40px;
+}
+
+/* <!-- -------PARTE O SCROLL------------------------------------------------------------------------ --> */
+.categorias {
+    color: #FFFFFF;
+    margin-left: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.horizantal-scrool, .horizantal-scrool2 {
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.horizantal-scrool .btn-scrool, .horizantal-scrool2 .btn-scrool2 {
+    background-color: transparent;
+    color: #999;
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 0;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.scrool-container, .scrool-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: auto;
+    left: 0;
+    transition: 0.5s all ease-out;
+}
+
+.img-circle {
+    width: 120px;
+    height: 165px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    transition: transform 0.5s; /*Segundos para o zoom*/
+}
+
+.img-circle:hover {
+    transform: scale(1.2);
+}
+
+.img-circle h3 {
+    display: flex;
+    margin-bottom: -225px;
+    margin-left: -100px;
+    margin-top: 10px;
+}

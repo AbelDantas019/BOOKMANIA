@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/perfil.css">
+    <script src="JS/perfil.js"></script>
+    <link rel="shortcut icon" href="IMG/imagens/Icones/icon-user-white.png" type="image/x-icon">
+    <title>Perfil</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="menubotoes">
+                <img src="IMG/pessoaAleatoria.png" alt="Imagem do Usuário" id="imgUser">
+                <h3 id="nameUser">Nome do Usuário</h3>
+                <button class="tablink" onclick="openPage('Perfil', this, '#8A2BE2')">Perfil</button>
+                <button class="tablink" onclick="openPage('MeusLivros', this, '#8A2BE2')" id="defaultOpen">Meus Livros</button>
+                <button class="tablink" onclick="openPage('Emprestados', this, '#8A2BE2')">Emprestados</button>
+                <button class="tablink" onclick="openPage('Trocar', this, '#8A2BE2')">Trocar</button>
+            </div>
+
+            <div class="menuConteudo">
+                <div id="Perfil" class="tabcontent">
+                    <div class="usuario">
+                        <div class="sla">
+                            <p class="txtUsuario">Nome:</p>
+                            <p id="nome" class="dadosDoUsuario">Nome do Usuário</p>
+                        </div>
+                        <div class="sla">
+                            <p class="txtUsuario">E-mail:</p>
+                            <p id="email" class="dadosDoUsuario">exemplo@gmail.com</p>
+                        </div>
+                        <div class="sla">
+                            <p class="txtUsuario">Senha:</p>
+                            <p id="senha" class="dadosDoUsuario">*********</p>
+                        </div>
+                        <div class="sla">
+                            <p class="txtUsuario">Telefone:</p>
+                            <p id="senha" class="dadosDoUsuario">(19)998632250</p>
+                        </div>
+                        <button id="botaoDados">Alterar dados</button>
+                    </div>
+                </div>
+
+                <div id="MeusLivros" class="tabcontent">
+                    <h1>Meu Livros</h1>
+                </div>
+                <div id="Emprestados" class="tabcontent">
+                    <h1>Emprestados</h1>
+                </div>
+                <div id="Trocar" class="tabcontent">
+                    <h1>Trocar</h1>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

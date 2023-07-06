@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #DDA0DD;
+    width: auto;
+}
+
+#main_img {
+    width: 341px;
+    height: 458px;
+    border-radius: 30px;
+    margin: 20px 0 0 50px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.livro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.description {
+    margin-left: 30px;
+    text-align: justify;
+}
+
+#writer {
+    margin-top: 10px;
+    color: #6B7874;
+}
+
+#publisher {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#book_description {
+    width: 550px;
+    margin-top: 10px;
+}
+
+.pay_or_lend {
+    width: 250px;
+    height: 250px;
+    background-color: #C0C0C0;
+    margin-left: 70px;
+    border-radius: 30px;
+}
+
+.pay_or_lend img {
+    width: 64px;
+    height: 64px;
+    margin: 15px 0 0 15px;
+}
+
+.pay_or_lend h3 {
+    margin: -50px 0 0 90px;
+}
+
+.pay_or_lend h2 {
+    margin: 40px 0 0 20px;
+}
+
+#bt_lend {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 40px;
+    background-color: #9400D3;
+    border-radius: 50px;
+    font-size: 15pt;
+    color: black;
+}
+
+#bt_buy {
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9400D3;
+    border-radius: 50px;
+    font-size: 15pt;
+    color: black;
+}
+
+.bt_PayOrBuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: #DDA0DD;
+}
+/* ----PARTE FICHA TECNICA------------------ */
+#txt_ficha {
+    padding: 520px 0 0 25px;
+}
+
+.fichas_tecnicas {
+    width: 1290px;
+    height: 60px;
+    background-color: #DDDCDC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.txt_fichas {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15pt;
+    float: left;
+}
+
+.valor_ficha {
+    margin-right: 15px;
+}
